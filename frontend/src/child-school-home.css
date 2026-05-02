@@ -1,0 +1,26 @@
+.home-nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:transparent;transition:background .3s;padding:16px 24px}
+.home-nav.scrolled{background:rgba(11,27,58,.95);backdrop-filter:blur(10px)}
+.nav-inner{max-width:1200px;margin:auto;display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:700;color:#fff}
+.login-btn{background:#fff;color:#0b1b3a;border:0;border-radius:10px;padding:8px 16px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.hero-section{min-height:100vh;background:linear-gradient(135deg,#0b1b3a,#284e9c);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:100px 22px 60px}
+.hero-content{max-width:700px}
+.hero-content h1{font-size:48px;margin:0 0 16px}
+.hero-content p{font-size:18px;margin:0 0 28px;opacity:.9}
+.cta-btn{background:#10b981;color:#fff;border:0;border-radius:14px;padding:14px 28px;font-size:16px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.features-section{padding:60px 22px;max-width:1200px;margin:auto;text-align:center}
+.features-section h2{font-size:32px;margin-bottom:30px}
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.feature-card{background:#fff;border-radius:20px;padding:28px;box-shadow:0 8px 24px rgba(29,53,87,.08);text-align:center}
+.feature-card h3{margin:14px 0 8px;font-size:20px}
+.feature-card p{color:#64748b;margin:0}
+.contact-section{padding:60px 22px;background:#f1f5ff;text-align:center}
+.contact-section h2{font-size:32px;margin-bottom:30px}
+.contact-grid{display:flex;justify-content:center;gap:30px;flex-wrap:wrap}
+.contact-item{display:flex;align-items:center;gap:8px;font-size:16px;color:#334155}
+.home-footer{padding:24px;text-align:center;background:#0b1b3a;color:#fff;font-size:14px}
+@media(max-width:720px){
+.hero-content h1{font-size:34px}
+.features-section h2{font-size:26px}
+.contact-grid{flex-direction:column;gap:16px}
+}
