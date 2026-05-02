@@ -832,7 +832,7 @@ function AdminApp({ user, setUser, year, setYear }) {
   );
 }
 
-function App() {
+export default function App() {
   const [user, setUser] = useState(null), [screen, setScreen] = useState('home'), [checking, setChecking] = useState(true);
   const [year, setYear] = useState(() => { const y = Number(sessionStorage.getItem('selectedYear')); return YEARS.includes(y) ? y : null; });
   useEffect(() => {
